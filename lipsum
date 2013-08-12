@@ -1,0 +1,3 @@
+#!/bin/sh
+
+curl -fsSkL "http://www.lipsum.com/feed/json?amount=1&what=paras&start=yes" | python -c 'import json,sys;o=json.load(sys.stdin);print o["feed"]["lipsum"]'

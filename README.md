@@ -32,3 +32,21 @@ For use in Sass, maybe other things.
 Bonus points for using in Vim like:
 
     :r!sass-heading the heading follows
+
+## lipsum
+
+Output a paragraph of lorem ipsum from [lipsum.com](http://www.lipsum.com).
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat et erat
+nec facilisis. Donec condimentum ante vel arcu auctor, accumsan bibendum odio
+elementum. Aliquam iaculis auctor nisi luctus mattis. Nam quis bibendum leo,
+vitae varius ligula. Proin tristique ullamcorper mauris, ut pharetra quam
+posuere quis.
+
+### Usage
+
+    $ lipsum
+
+Again, bonus points if used inside Vim:
+
+    :r!lipsum
