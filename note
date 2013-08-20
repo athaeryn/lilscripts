@@ -1,0 +1,14 @@
+#!/bin/sh
+
+NOTESPATH=~/notes
+DAYFILE="$(date +%d-%m-%y.txt)"
+DAYFILEPATH="$NOTESPATH/$DAYFILE"
+
+# make the notes directory, in case it doesn't exist
+mkdir -p "$NOTESPATH"
+# make the file for today, if it doesn't exist
+touch "$DAYFILEPATH"
+# append the note to today's file
+echo "$(date +%H:%M) - $@" >> "$DAYFILEPATH"
+# sort the file,
+sort "$DAYFILEPATH" -o "$DAYFILEPATH"

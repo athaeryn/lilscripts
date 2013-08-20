@@ -50,3 +50,13 @@ posuere quis.
 Again, bonus points if used inside Vim:
 
     :r!lipsum
+
+## note
+
+_From: me_
+
+Shell script to add a note to the file ~/notes/TODAYSDATE.txt
+
+### Usage
+
+    $ note started a project
