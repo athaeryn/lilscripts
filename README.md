@@ -35,6 +35,8 @@ Bonus points for using in Vim like:
 
 ## lipsum
 
+_From: me & lipsum.com_
+
 Output a paragraph of lorem ipsum from [lipsum.com](http://www.lipsum.com).
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat et erat
