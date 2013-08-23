@@ -62,3 +62,13 @@ Shell script to add a note to the file ~/notes/TODAYSDATE.txt
 ### Usage
 
     $ note started a project
+
+## pipes
+
+_From: [https://gist.github.com/joshdick/4246481](https://gist.github.com/joshdick/4246481)_
+
+A pipes screensaver in the terminal.
+
+### Usage
+
+    $ pipes
