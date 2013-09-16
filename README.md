@@ -72,3 +72,9 @@ A pipes screensaver in the terminal.
 ### Usage
 
     $ pipes
+
+## Vidir
+
+_From: [https://github.com/trapd00r/vidir](https://github.com/trapd00r/vidir)_
+
+Edit directories in $EDITOR
